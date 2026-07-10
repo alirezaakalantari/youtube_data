@@ -1,0 +1,40 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Poetry
+poetry.lock
+
+# Django
+*.log
+db.sqlite3
+/media/
+/staticfiles/
+
+# Docker
+*.env
+.env.*
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Virtualenv
+venv/
+.env/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
